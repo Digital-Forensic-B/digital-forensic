@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
 	return (
-		<header className="flex items-center p-4 text-emerald-400">
+		<header className="flex items-center p-4 text-teal-400">
 			<Link to="/">
 				<p className="text-xl font-semibold">Digital Forensics</p>
 			</Link>

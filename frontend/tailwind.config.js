@@ -8,7 +8,10 @@ export default {
 				88: '22rem',
 				92: '23rem',
 				128: '32rem',
+				180: '45rem',
+				200: '50rem',
 				208: '52rem',
+				240: '60rem',
 				256: '64rem',
 			},
 			height: {

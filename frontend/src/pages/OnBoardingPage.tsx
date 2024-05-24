@@ -10,7 +10,7 @@ const OnBoardingPage = () => {
 			<Banner />
 			<section className="flex flex-col items-center justify-center p-8 text-xl font-medium text-[#333]">
 				<p>
-					<span className="text-emerald-400">Digital Forensics</span>는
+					<span className="text-teal-400">Digital Forensics</span>는
 				</p>
 				<p>
 					전문적인 디지털 포렌식 전문가 양성을 목적으로 양질의 교육 콘텐츠를

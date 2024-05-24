@@ -47,7 +47,7 @@ const LoginPage = () => {
 					<p>안녕하세요.</p>
 					<p>디지털 포렌식 교육 플랫폼</p>
 					<p>
-						<span className="text-emerald-400">Digital Forensics</span> 입니다.
+						<span className="text-teal-400">Digital Forensics</span> 입니다.
 					</p>
 					<p className="mt-4 text-sm text-gray-400">
 						서비스 이용을 위해 로그인 해주세요.
@@ -62,20 +62,20 @@ const LoginPage = () => {
 						name="username"
 						type="text"
 						placeholder="아이디"
-						className="h-12 pl-2 border-b-[1px] outline-none w-80 focus:border-emerald-200"
+						className="h-12 pl-2 border-b-[1px] outline-none w-80 focus:border-teal-200"
 						onChange={onChange}
 					></input>
 					<input
 						name="password"
 						type="password"
 						placeholder="비밀번호"
-						className="h-12 pl-2 border-b outline-none w-80 focus:border-emerald-200"
+						className="h-12 pl-2 border-b outline-none w-80 focus:border-teal-200"
 						onChange={onChange}
 					></input>
 					<p className="flex items-center self-start h-4 pl-1 text-xs font-medium text-red-400">
 						{errorMessages}
 					</p>
-					<button className="h-12 mt-8 text-white rounded-md w-80 bg-emerald-400">
+					<button className="h-12 mt-8 text-white bg-teal-400 rounded-md w-80 bg">
 						로그인
 					</button>
 				</form>
