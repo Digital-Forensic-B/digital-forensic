@@ -26,7 +26,7 @@ const OnBoardingPage = () => {
 				<IntroCard
 					img={cloud}
 					content="클라우드 서비스를 통해
-					 실습을 할 수 있습니다"
+					실습을 할 수 있습니다"
 				/>
 				<IntroCard
 					img={online}
