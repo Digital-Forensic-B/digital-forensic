@@ -1,5 +1,7 @@
 from datetime import timezone
 from django.db import models
+
+
 class User(models.Model):
     userID = models.AutoField(primary_key=True)
     password = models.CharField(max_length=128)

@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
-from backend.user.models import User
+from user.models import User
+
 
 class Problem(models.Model):
     problemID = models.AutoField(primary_key=True)
@@ -13,6 +14,7 @@ class Problem(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True, null=True)
     is_deleted = models.BooleanField(default=False)
+
     def update_date(self):
         self.updated_at = timezone.now
         self.save()
