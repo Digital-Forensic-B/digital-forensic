@@ -22,5 +22,6 @@ urlpatterns = [
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     # 다른 앱의 URL도 여기에 추가
     path('api/v1/', include('user.urls')),
+    path('api/v1/', include('problem.urls')),
 ]
 
