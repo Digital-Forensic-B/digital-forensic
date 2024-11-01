@@ -9,7 +9,7 @@ class Problem(models.Model):
     pType = models.CharField(max_length=128)  # 소문자로 변경
     pType = models.CharField(max_length=128)  # 소문자로 변경
     pContent = models.TextField()  # 내용이 길어질 수 있으므로 TextField로 변경
-    pFile = models.CharField(max_length=500)  # 소문자로 변경
+    pFile = models.FileField(upload_to='problems/files/', blank=True, null=True)  # FileField로 변경
     pAnswer = models.CharField(max_length=500)  # 소문로 변경
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True, null=True)
