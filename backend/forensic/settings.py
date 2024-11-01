@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'solved_problem',
     'problem',
     'rest_framework',
-
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
