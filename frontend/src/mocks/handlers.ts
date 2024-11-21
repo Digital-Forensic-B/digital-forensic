@@ -129,13 +129,12 @@ TCP 연결 설정은 3-way handshake 절차를 따르는데 이때 해당 TCP연
 	},
 	{
 		id: 4,
-		type: '악성코드 분석',
-		name: '악성코드 행위 분석',
+		type: '파일 복구',
+		name: '손상된 파일 복구',
 		author: 'Malware Analysis Lab',
-		content:
-			'제공된 악성코드 샘플을 분석하여 그 동작과 목적을 파악하고, 관련된 증거를 찾아내는 문제입니다.',
-		answer: 'someCorrectAnswer4',
-		file: 'file/something4.zip',
+		content: '주어진 파일 속 플래그를 찾아라 (힌트 : PNG 파일)',
+		answer: 'vfdiusrj',
+		file: '/file/findKey.zip',
 		solution: {
 			description: `
 악성코드 분석 방법:
